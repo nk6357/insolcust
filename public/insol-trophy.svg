@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="768" height="768" viewBox="0 0 768 768" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Кубок INSOL</title>
+  <desc id="desc">Голубой кубок с табличкой и надписью INSOL</desc>
+  <defs>
+    <linearGradient id="cup" x1="213" y1="104" x2="554" y2="515" gradientUnits="userSpaceOnUse"><stop stop-color="#B9F8FF"/><stop offset=".34" stop-color="#58E8FF"/><stop offset="1" stop-color="#16BBD7"/></linearGradient>
+    <linearGradient id="cupDark" x1="309" y1="473" x2="468" y2="628" gradientUnits="userSpaceOnUse"><stop stop-color="#48DDF6"/><stop offset="1" stop-color="#109DBA"/></linearGradient>
+    <linearGradient id="plaque" x1="291" y1="607" x2="474" y2="681" gradientUnits="userSpaceOnUse"><stop stop-color="#8FF2FF"/><stop offset=".5" stop-color="#58E8FF"/><stop offset="1" stop-color="#16BBD7"/></linearGradient>
+    <filter id="shadow" x="86" y="86" width="596" height="638" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#00151C" flood-opacity=".28"/></filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <path d="M218 163H112V252C112 352 184 428 290 428" stroke="#58E8FF" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M550 163H656V252C656 352 584 428 478 428" stroke="#58E8FF" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M218 180H130V250C130 329 184 390 271 404" stroke="#B9F8FF" stroke-width="7" stroke-linecap="round" opacity=".7"/>
+    <rect x="190" y="95" width="388" height="54" rx="27" fill="#109DBA"/><rect x="177" y="86" width="388" height="54" rx="27" fill="url(#cup)"/><path d="M203 103H493" stroke="white" stroke-opacity=".52" stroke-width="9" stroke-linecap="round"/>
+    <path d="M207 127H550C550 327 509 460 403 505C391 510 377 510 365 505C259 460 218 327 207 127Z" fill="#109DBA"/><path d="M194 127H533C533 321 495 447 398 491C382 498 365 498 350 491C252 447 207 321 194 127Z" fill="url(#cup)"/><path d="M224 153C232 303 267 409 346 458" stroke="white" stroke-opacity=".34" stroke-width="18" stroke-linecap="round"/>
+    <path d="M320 475H448V508C448 529 431 546 410 546H358C337 546 320 529 320 508V475Z" fill="#109DBA"/><path d="M329 473H436V503C436 519 423 532 407 532H358C342 532 329 519 329 503V473Z" fill="#58E8FF"/><path d="M351 526H417V563C417 593 431 614 462 633H306C337 614 351 593 351 563V526Z" fill="url(#cupDark)"/><path d="M360 536V565C360 586 351 605 334 619" stroke="white" stroke-opacity=".35" stroke-width="10" stroke-linecap="round"/>
+    <rect x="254" y="616" width="260" height="101" rx="15" fill="#162630"/><rect x="270" y="631" width="228" height="67" rx="11" fill="url(#plaque)"/><path d="M285 645H468" stroke="white" stroke-opacity=".22" stroke-width="7" stroke-linecap="round"/><rect x="226" y="700" width="316" height="36" rx="10" fill="#0B1821"/>
+    <text x="384" y="675" fill="white" font-family="Rubik, Arial, sans-serif" font-size="31" font-weight="700" text-anchor="middle" letter-spacing="1.5">INSOL</text>
+  </g>
+</svg>
